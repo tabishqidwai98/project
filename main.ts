@@ -5,7 +5,7 @@ let d = true
 basic.forever(function on_forever() {
     basic.showNumber(a + b)
     basic.showString("hellu!")
-    if (d === true) {
+    if (d == true) {
         basic.showNumber(a + a)
     } else {
         basic.showNumber(a + b)
